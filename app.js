@@ -93,31 +93,21 @@ sr.reveal('h1', {
    
 });
 
+sr.reveal('form', {
+    duration: 1000, // Animation duration in milliseconds
+    origin: 'left', // Animation starts from the bottom
+    distance: '100px', // Distance to start the animation (adjust as needed)
+    delay: 1000, // Delay between elements in milliseconds
+   
+});
+
 sr.reveal('.search-result', {
     duration: 1000, // Animation duration in milliseconds
     origin: 'left', // Animation starts from the bottom
     distance: '100px', // Distance to start the animation (adjust as needed)
-    delay: 200, // Delay between elements in milliseconds
-    interval: 500 ,
+    delay: 1500, // Delay between elements in milliseconds
+    interval: 500,
 });
-
-sr.reveal('.search-result', {
-    duration: 1000, // Animation duration in milliseconds
-    origin: 'right', // Animation starts from the bottom
-    distance: '100px', // Distance to start the animation (adjust as needed)
-    delay: 200, // Delay between elements in milliseconds
-    interval: 500 ,
-});
-
-sr.reveal('input', {
-    duration: 1000, // Animation duration in milliseconds
-    origin: 'bottom', // Animation starts from the bottom
-    distance: '100px', // Distance to start the animation (adjust as needed)
-    delay: 200, // Delay between elements in milliseconds
-    interval: 500 ,
-});
-
-
 
 
 
